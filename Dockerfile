@@ -7,7 +7,7 @@ FROM ubuntu:16.04
 MAINTAINER Cuong Tran "tranhuucuong91@gmail.com"
 
 # using apt-cacher-ng proxy for caching deb package
-RUN echo 'Acquire::http::Proxy "http://172.17.0.1:3142/";' > /etc/apt/apt.conf.d/01proxy
+#RUN echo 'Acquire::http::Proxy "http://172.17.0.1:3142/";' > /etc/apt/apt.conf.d/01proxy
 
 ENV REFRESHED_AT 2017-03-25
 
